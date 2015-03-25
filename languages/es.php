@@ -90,6 +90,7 @@ $spanish = array (
     'inbox:message:attachments:add' => 'Agregar archivos adjuntos',
     'inbox:message:send' => 'Enviar',
     'inbox:notification:subject' => 'Tienes un nuevo %s',
+    'inbox:notification:summary' => 'Tienes un nuevo %s',
     'inbox:notification:body' => 'Tienes un nuevo %s de parte de %s que dice:
 
 %s
