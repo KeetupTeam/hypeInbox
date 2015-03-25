@@ -123,8 +123,9 @@ $english = array(
 	'inbox:message:attachments' => 'Attachments',
 	'inbox:message:attachments:add' => 'Add attachments',
 	'inbox:message:send' => 'Send',
-	
+
 	'inbox:notification:subject' => 'You have a new %s',
+	'inbox:notification:summary' => 'You have a new %s',
 	'inbox:notification:body' => "You have a new %s from %s. It reads:
 
 

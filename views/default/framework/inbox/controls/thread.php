@@ -4,7 +4,7 @@ namespace hypeJunction\Inbox;
 ?>
 
 <div class="inbox-messages-controls">
-	<div class="inbox-messages-control-group">
+	<div class="well well-sm">
 		<?php
 		$params = $vars;
 		$params['sort_by'] = 'priority';

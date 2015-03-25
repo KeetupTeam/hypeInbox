@@ -9,7 +9,7 @@
 .inbox-message.inbox-message-read { background-color: #ffffff; }
 .inbox-message.inbox-message-read .elgg-menu-item-unread, .inbox-message.inbox-message-read .elgg-menu-item-markread { display: none; }
 .inbox-message.inbox-message-form-row [type="checkbox"] { float: left; margin: 5px; }
-.inbox-message.inbox-message-form-row .inbox-message-image-block { margin-left: 25px; }
+.inbox-message.inbox-message-form-row .inbox-message-image-block { width: 91.5%; }
 .inbox-message.inbox-message-threaded .elgg-content .inbox-message-subject + .inbox-message-body-excerpt:before { content: " - "; display: inline; }
 .inbox-message .elgg-module-embed { margin: 5px 0; }
 
@@ -25,7 +25,8 @@
 .inbox-messages-control-group { display: inline-block; padding: 5px 15px; margin: 5px 0; width: 100%; border-bottom: 1px solid #c3c3c3; border-top: 1px solid #c3c3c3; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 .elgg-menu-inbox, .elgg-menu-inbox-thread { margin: 0 10px 0 0; display: inline-block; overflow: visible; }
-.elgg-menu-inbox > li, .elgg-menu-inbox-thread > li { display: inline-block; position: relative; }
+.elgg-menu-inbox > li, .elgg-menu-inbox-thread > li { display: inline-block; position: relative; line-height: 28px; }
+.elgg-menu-inbox > li > label { margin-bottom: 0; }
 .elgg-menu-inbox > li > a, .elgg-menu-inbox-thread > li > a { padding: 5px 10px; background: #fafafa; border: 1px solid #c3c3c3; color: #222; border-left: 0; }
 .elgg-menu-inbox > li > a span, .elgg-menu-inbox-thread > li > a span { color: #222; }
 .elgg-menu-inbox > li:first-child > a, .elgg-menu-inbox-thread > li:first-child > a { border-left: 1px solid #c3c3c3; }

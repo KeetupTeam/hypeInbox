@@ -33,7 +33,7 @@ $summary = elgg_view('object/elements/summary', array(
 		));
 
 $body = elgg_view_image_block($icon, $summary, array(
-	'class' => 'inbox-message-image-block',
+	'class' => 'inbox-message-image-block col-sm-11',
 ));
 
 if (elgg_in_context('inbox-form')) {
@@ -46,7 +46,7 @@ $attrs = elgg_format_attributes(array(
 	'data-guid' => $entity->guid,
 	'class' => implode(' ', array_filter(array(
 		elgg_extract('class', $vars, null),
-		'inbox-message',
+		'inbox-message row',
 		($entity->isRead($threaded)) ? 'inbox-message-read' : 'inbox-message-unread',
 		($threaded) ? 'inbox-message-threaded' : 'inbox-message-full',
 		(elgg_in_context('inbox-form')) ? 'inbox-message-form-row' : '',
