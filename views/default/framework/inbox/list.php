@@ -7,6 +7,7 @@ $list_params = array(
 	'full_view' => false,
 	'pagination' => true,
 	'no_results' => elgg_echo('inbox:nomessages'),
+	'list_class' => 'container-fluid',
 );
 
 $params = array_merge($list_params, $vars);
