@@ -143,11 +143,11 @@ class Ruleset {
 	 */
 	public function getSingularLabel($language = 'en') {
 		$key = "item:object:message:$this->message_type:singular";
-//		if ($language == 'en') {
-//			return $this->labels['singular'];
-//		} else if ($language) {
+		if ($language == 'en') {
+			return $this->labels['singular'];
+		} else if ($language) {
 			return elgg_echo($key, array(), $language);
-//		}
+		}
 		return $key;
 	}
 	
@@ -159,11 +159,11 @@ class Ruleset {
 	 */
 	public function getPluralLabel($language = 'en') {
 		$key = "item:object:message:$this->message_type:plural";
-//		if ($language == 'en') {
-//			return $this->labels['plural'];
-//		} else if ($language) {
+		if ($language == 'en') {
+			return $this->labels['plural'];
+		} else if ($language) {
 			return elgg_echo($key, array(), $language);
-//		}
+		}
 		return $key;
 	}
 }
