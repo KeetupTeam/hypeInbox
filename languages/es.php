@@ -114,6 +114,10 @@ Por favor, no responda este email.',
 - "Relación entre el Remitente y el Grupo" crea un nuevo nivel de filtro en donde:
 1) El Destinatario debe ser miembro de un Grupo y,
 2) El Remitente debe tener alguna relación con el Grupo (ej: especificando "Miembro" indiaría que este tipo de comunicación puede ocurrir entre miembros del mismo grupo)',
+    'item:object:message:__private:singular' => 'Mensaje Privado',
+    'item:object:message:__private:plural' => 'Mensajes Privados',
+    'item:object:message:__notification:singular' => 'Notificacion',
+    'item:object:message:__notification:plural' => 'Notificaciones',
 );
 
 add_translation("es", $spanish);

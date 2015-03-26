@@ -80,6 +80,7 @@ $message_type = $message->getMessageType();
 $message_hash = $message->getHash();
 
 $config = new Config;
+$language = get_language();
 $ruleset = $config->getRuleset($message_type);
 $type_label = $ruleset->getSingularLabel($language);
 

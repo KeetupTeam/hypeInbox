@@ -141,6 +141,10 @@ $english = array(
 	%s
 
 	Please do not reply to this email.",
+    'item:object:message:__private:singular' => 'Private Message',
+    'item:object:message:__private:plural' => 'Private Messages',
+    'item:object:message:__notification:singular' => 'Notification',
+    'item:object:message:__notification:plural' => 'Notifications',
 );
 
 add_translation("en", $english);
